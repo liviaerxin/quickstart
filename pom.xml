@@ -54,6 +54,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>www.dcm4che.org</id>
+      <name>dcm4che Repository</name>
+      <url>http://maven.dcm4che.org</url>
+    </repository>
+  </repositories>
+    
   <build>
     <plugins>
       <plugin>
@@ -73,6 +81,7 @@
     <module>c-store-scp</module>
     <module>c-store-scu</module>
     <module>ian-scp</module>
+    <module>dcm-to-jpg</module>
   </modules>
 
 </project>
